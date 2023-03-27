@@ -49,7 +49,11 @@ input.onButtonPressed(Button.A, function () {
     Bird_Location += 1
 })
 input.onButtonPressed(Button.B, function () {
-    Bird_Location += -1
+    if (true) {
+        Bird_Location += -1
+    } else {
+    	
+    }
 })
 function Generate_Pipe () {
     random_bar = randint(1, 5)
